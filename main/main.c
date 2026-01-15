@@ -1,3 +1,8 @@
+/* Aaron Binion, 1/2026
+This code simply turns on an LED when a button is pressed and released, 
+and then turns it off when it is pressed and released again
+*/
+
 #include "freertos/FreeRTOS.h"
 #include "driver/gpio.h"
 
@@ -44,4 +49,4 @@ void app_main(void) {
       }
       vTaskDelay(25 / portTICK_PERIOD_MS); //Use appropriate loop delays
       }
-      }
+      } 
