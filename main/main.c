@@ -50,5 +50,6 @@ void app_main(void) {
         light = !light;
         state = false;
       }
-      vTaskDelay(25 / portTICK_PERIOD_MS); //Use appropriate loop delays
+      vTaskDelay(1000 / portTICK_PERIOD_MS); 
       }
+    }
