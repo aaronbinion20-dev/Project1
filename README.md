@@ -53,6 +53,7 @@ TEST PROCESS -
 RESULTS - 
 
 All tests passed.
+
 1. Welcome message displayed
 1.Green LED on
 2.Green LED off
